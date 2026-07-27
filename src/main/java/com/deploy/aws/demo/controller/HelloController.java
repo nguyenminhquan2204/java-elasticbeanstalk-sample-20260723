@@ -15,7 +15,7 @@ public class HelloController {
     @GetMapping
     public ResponseEntity<?> greetings() {
 
-        return new ResponseEntity<Object>("<h1 style='color:red;'>Congratulations, your app has been deployed. Great Quan Nguyen Minh!<h1>", HttpStatus.OK);
+        return new ResponseEntity<Object>("<h1 style='color:red;'>Congratulations, your app has been deployed. Great Quan Nguyen Minh 07272026! Test webhook Github<h1>", HttpStatus.OK);
     }
 
 }
